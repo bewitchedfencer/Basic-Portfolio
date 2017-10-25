@@ -7,30 +7,35 @@
 </head>
 <body>
     <header>
-        <!--should be teal in color and the box will contain my name and the menu, float left-->
         <h1 class="logo">Alexa Robinson</h1>
-        <!--the menu bar, should float right and have links to the other pages, style the text font and color, figure out how to make lines in between-->
         <div id="menu-bar" class="normal-text">
-            <div class="nav-links"><a href="contact.html">Contact</a></div>
-            <div class="nav-links"><a href="portfolio.html">Portfolio</a></div>
-            <div class="nav-links"><a href="index.html">About</a></div>
+                <div class="nav-links"><a href="index.html">About</a></div>
+                <div class="nav-links"><a href="portfolio.html">Portfolio</a></div>                
+                <div class="nav-links"><a href="contact.html">Contact</a></div>
         </div>
     </header>
     <div class="main-content">
-        <section>
+        <section class="normal-text">
             <h1>About Me</h1>
-            <!--figure out how to add the dividing line here-->
-            <img src="assets/images/mypic.jpg" alt="Alexa Robinson in Glendalough, Ireland">
+            <hr noshade>
+            <img src="assets/images/mypic.jpg" alt="Alexa Robinson in Glendalough, Ireland" align= "left">
             <p>I live in Orlando, FL where I am attending the UCF Coding Bootcamp. I am searching for a job to work to use my skills as a full stack web developer. Currently, I know HTML, CSS, Bootstrap, and jQuery.</p>
             <p>I have a pet cat named Catalanta. I enjoy reading, coding, and writing my epic fantasy novel in my spare time.</p>
         </section>
         <aside>
             <h1>Connect with Me</h1>
-            <!-- Add line separation and images with the anchors to link to other sites. -->
+            <hr noshade>
+            <div class="icon">
+                <a href="www.linkedin.com/in/alexa-robinson"><img src="assets/images/linkedin.png" alt="linkedin icon and link"></a>
+                <a href="https://github.com/bewitchedfencer"><img src="assets/images/github_icon.png" alt="github icon and link"></a>
+                <a href="https://stackexchange.com/users/11463720/srobinson"><img src="assets/images/stackoverflow_icon.png"></a>
+            </div>
         </aside>
     </div>
     <footer>
-        Copyright 2017 Alexa Robinson
+        <div class="footer-text normal-text">
+        &copy;Copyright 2017 Alexa Robinson
+        </div>
     </footer>
 </body>
 </html>

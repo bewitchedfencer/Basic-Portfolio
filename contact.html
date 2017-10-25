@@ -7,24 +7,45 @@
 </head>
 <body>
     <header>
-        <!--should be teal in color and the box will contain my name and the menu, float left-->
         <h1 class="logo">Alexa Robinson</h1>
-        <!--the menu bar, should float right and have links to the other pages, style the text font and color, figure out how to make lines in between-->
         <div id="menu-bar" class="normal-text">
-                <div class="nav-links"><a href="contact.html">Contact</a></div>
-                <div class="nav-links"><a href="portfolio.html">Portfolio</a></div>
                 <div class="nav-links"><a href="index.html">About</a></div>
+                <div class="nav-links"><a href="portfolio.html">Portfolio</a></div>                
+                <div class="nav-links"><a href="contact.html">Contact</a></div>
         </div>
     </header>
         </div>
     <div class="main-content">
-        <form>
+        <section>
             <h1>Contact</h1>
-            <!--figure out the form input stuff and the little line divider-->
-        </form>
+            <hr>
+            <form action="/submit-request-for-response">
+                <div>
+                    <p class="normal-text">Name</p>
+                    <br>
+                    <input type="text" required placeholder="Jane Smith">
+                </div>
+                <div>
+                    <p class="normal-text">Email</p>
+                    <br>
+                    <input type="text" required placeholder="janesmith@example.com">
+                </div>
+                <div>
+                    <p class="normal-text">Message</p>
+                    <br>
+                    <input type="text" id="bigger-box">
+                </div>
+                <button class="normal-text" type="submit">Submit</button>
+            </form>
+        </section>
         <aside>
-                <h1>Connect with Me</h1>
-                <!-- Add line separation and images with the anchors to link to other sites. -->
+            <h1>Connect with Me</h1>
+            <hr noshade>
+            <div class="icon">
+                <a href="www.linkedin.com/in/alexa-robinson"><img src="assets/images/linkedin.png" alt="linkedin icon and link"></a>
+                <a href="https://github.com/bewitchedfencer"><img src="assets/images/github_icon.png" alt="github icon and link"></a>
+                <a href="https://stackexchange.com/users/11463720/srobinson"><img src="assets/images/stackoverflow_icon.png"></a>
+            </div>
         </aside>
     </div>
     <footer>
